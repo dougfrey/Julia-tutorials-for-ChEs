@@ -5,7 +5,7 @@ There are several software systems in the Julia ecosystem that are built on top 
 
 | Software | Purpose| License Type|
 |  ---  |  ---  |  ---  |
-|[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Simulating chemical reaction networks| Free and open source |
+|[Catalyst.jl](https://docs.sciml.ai/Catalyst/stable/)| Simulating chemical and biochemical reaction networks| Free and open source |
 |[MethodOfLines.jl](https://docs.sciml.ai/MethodOfLines/stable/)| Solving PDEs|  Free and open source |
 |[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl)| Simulating chemical processes| Free and open source |
 |[Conductor.jl](https://wsphillips.github.io/Conductor.jl/stable/)| Computational neuroscience| Free and open source |
