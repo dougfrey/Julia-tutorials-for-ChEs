@@ -15,6 +15,6 @@ There are several software libraries in the Julia ecosystem that have ModelingTo
 |[PumasAI](https://pumas.ai/)| Pharmacometrics | Free for non-commercial use, a monthly fee otherwise |
 |[Dyad](https://juliahub.com/products/dyad)| AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
-Catalyst.jl and MethodOfLines.jl from the above table are included in this tutorial. More generally, since all of the above software systems have ModelingToolkit.jl as their foundation, familiarity with ModelingToolkit.jl greatly facilitates their use.  
+Catalyst.jl and MethodOfLines.jl from the above table are included in this tutorial. More generally, since all of the above software packages have ModelingToolkit.jl as their foundation, familiarity with ModelingToolkit.jl greatly facilitates their use.  
 
 Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs.
