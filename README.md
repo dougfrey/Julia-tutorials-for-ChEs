@@ -10,11 +10,11 @@ There are several software libraries in the Julia ecosystem that have ModelingTo
 |[NeuralPDE.jl](https://docs.sciml.ai/NeuralPDE/stable/)| Solving PDEs using Physics Informed Neural Networks (PINNs)| Free and open source |
 |[ProcessSimulator.jl](https://github.com/SciML/ProcessSimulator.jl)| Simulating chemical processes| Free and open source |
 |[NumCME.jl](https://voduchuy.github.io/NumCME.jl/dev/)| Chemical Master Equation approach for simulating biochemical reaction networks| Free and open source |
-|[Conductor.jl](https://wsphillips.github.io/Conductor.jl/stable/)| Neurophysiological modeling| Free and open source |
+|[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Finding the system of governing equations automatically for a dataset| Free and open source |
 |[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry| Free for non-commercial use, a monthly fee otherwise |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics | Free for non-commercial use, a monthly fee otherwise |
 |[Dyad](https://juliahub.com/products/dyad)| AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
-Catalyst.jl and MethodOfLines.jl from the above table will be included in this tutorial. More generally, since all of the above software systems have ModelingToolkit.jl as their foundation, familiarity with ModelingToolkit.jl greatly facilitates their use.  
+Catalyst.jl and MethodOfLines.jl from the above table are included in this tutorial. More generally, since all of the above software systems have ModelingToolkit.jl as their foundation, familiarity with ModelingToolkit.jl greatly facilitates their use.  
 
 Although many tutorials exist for the Julia programming language, none have the focus of this tutorial, and many are somewhat short on using effective pedagogical methods to make learning easy (or at least easier!) for the neophyte. The tutorials here seek to address these needs.
