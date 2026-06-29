@@ -13,7 +13,7 @@ There are several software libraries in the Julia ecosystem that have ModelingTo
 |[DataDrivenDiffEq.jl](https://docs.sciml.ai/DataDrivenDiffEq/stable/)| Finding the system of governing equations automatically for a dataset| Free and open source |
 |[Neuroblox](https://www.neuroblox.ai/)| Computational neuroscience and psychiatry| Free for non-commercial use, a monthly fee otherwise |
 |[PumasAI](https://pumas.ai/)| Pharmacometrics | Free for non-commercial use, a monthly fee otherwise |
-|[Dyad](https://juliahub.com/products/dyad)| AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
+|[Dyad](https://juliahub.com/products/dyad)| A declarative physical modeling language that compiles into ModelingToolkit.jl code and that permits AI-assisted industrial modeling| Free for non-commercial use, a monthly fee otherwise |
 
 Catalyst.jl and MethodOfLines.jl from the above table are included in this tutorial. More generally, since all of the above software packages have ModelingToolkit.jl as their foundation, familiarity with ModelingToolkit.jl greatly facilitates their use.  
 
