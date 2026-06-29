@@ -70,7 +70,13 @@ julia> Pkg.rm("NonlinearSolve")  # remove the NonlinearSolve package
 julia> Pkg.update("ModelingToolkit")  # update ModelingToolkit package to newest version
 julia> Pkg.update()  # update all packages to newest versions
 julia> Pkg.build("IJulia")  # rebuild all connections for IJulia package
+julia> Pkg.precompile("NonlinearSolve")  # precompile the NonlinearSolve package
+julia> Pkg.generate("new_env_1")  # create a new environment named new_env_1
+julia> Pkg.activate("new_env_1")  # go to the environment named new_env_1
+julia> Pkg.activate()  # go back to the main directory from a given environment
 ```
+Generating and activating a new directory for each main project is recommended to simplify package installation. This step will be discussed in more detail later. 
+
 Help for (almost) any item can be obtain with the @doc macro.  For example, to obtain help with the min() function you can use: 
 
 ```julia
