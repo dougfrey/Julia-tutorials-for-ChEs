@@ -29,7 +29,7 @@ Note that `julia>` is the prompt for the top-level Julia REPL. You can access th
 `               -----> Enter ; -----> shell>         `<br>
 
 
-Although sub-REPLs are no doubt helpful to the power user, to keep things simple and uniform only the top-level REPL will be used here. If you find yourself in a sub-REPL, you can exit back to the top-level REPL using the backspace key.
+Although sub-REPLs are definitely helpful to the power user, to keep things simple and uniform in this tutorial only the top-level REPL will be used here. If you find yourself in a sub-REPL, you can exit back to the top-level REPL using the backspace key. The text @v1.11 in the above figure indicates you are in the default global environment for version 1.11 of Julia, as opposed to being in a local environment that may have been created for an individual project.   
 
 Next, the ModelingToolkit, NonlinearSolve, and IJulia packages need to be installed. This can be accomplished as follows: 
 
@@ -40,7 +40,7 @@ julia>  Pkg.add("ModelingToolkit")  # install ModelingToolkit package
 julia>  Pkg.add("NonlinearSolve")   # install NonlinearSolve package
 julia>  Pkg.add("IJulia")           # install IJulia package
 ```
-The # symbol denotes a comment and text after the # symbol is not executed. The package version numbers and upgrade status of installed packages are obtained by the following statement:
+The # symbol denotes a comment and text after the # symbol is not executed. The above commands will install packages in the default global environment. Although creating local environments for individual projects is recommended to facilitate managing package versions, to keep things simple in this tutorial only the default global environment will be used. The package version numbers and upgrade status of installed packages are obtained by the following statement:
 
 ```julia
 julia>  Pkg.status() 
@@ -71,11 +71,11 @@ julia> Pkg.update("ModelingToolkit")  # update ModelingToolkit package to newest
 julia> Pkg.update()  # update all packages to newest versions
 julia> Pkg.build("IJulia")  # rebuild all connections for IJulia package
 julia> Pkg.precompile("NonlinearSolve")  # precompile the NonlinearSolve package
-julia> Pkg.generate("new_env_1")  # create a new environment named new_env_1
-julia> Pkg.activate("new_env_1")  # go to the environment named new_env_1
-julia> Pkg.activate()  # go back to the main directory from a given environment
+julia> Pkg.generate("new_env_1")  # create a new local environment named new_env_1
+julia> Pkg.activate("new_env_1")  # go to the local environment named new_env_1
+julia> Pkg.activate()  # go back to the default global enviroment from a given local environment
 ```
-Generating and activating a new directory for each main project is recommended to simplify package installation. This step will be discussed in more detail later. 
+The last three examples given above relate to creating local environments for individual projects which, as mentioned above, is not implemented in this tutorial to keep things simple.  
 
 Help for (almost) any item can be obtain with the @doc macro.  For example, to obtain help with the min() function you can use: 
 
