@@ -1,6 +1,6 @@
 ## Installing and Using the Jupyter Notebook System
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jupyter notebooks are the primary means to implement this tutorial and are widely used as a platform in general to share computational methods and results. For example, Google Colab and SaturnCloud are a cloud-based Jupyter notebook enviroments available for free. For this tutorial we will install the Jupyter notebook system on your local computer instead of using a cloud-based environment. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jupyter notebooks are the primary means to implement this tutorial and are widely used as a platform in general to share computational methods and results. For example, Google Colab and SaturnCloud are a cloud-based Jupyter notebook enviroments available for free. In this tutorial we will install the Jupyter notebook system on your local computer instead of using a cloud-based environment. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To begin, first start the Julia REPL and then make the IJulia package availabe for use as follows: 
 
