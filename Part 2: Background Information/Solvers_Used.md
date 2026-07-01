@@ -1,4 +1,4 @@
-##  6. Specifications for the main numerical algorithms used in this tutorial. 
+##  Specifications for the main numerical algorithms used.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;All the algorithms below have changeable linear subprogram solvers, options for Jacobian calculations, and other adjustable features.
 
