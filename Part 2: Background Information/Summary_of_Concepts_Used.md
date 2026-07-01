@@ -1,10 +1,6 @@
-##  Basic introduction to Julia and ModelingToolkit.jl
+##  Summary of Concepts and Sytax Used
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This tutorial introduces the Julia programming language and the ModelingToolkit.jl (MTK) package in Julia using the solving of systems of nonlinear algebraic equations as an illustrative example. Julia is a free and open-source programming language developed at MIT specifically for high-performance computing in science and engineering and for machine learning applications.  ModelingToolkit is a symbolic-numeric modeling package for use in Julia that provides automated equation manipulations to facilitate numerical processing, among other features.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This tutorial is intended for those who already have some programming experience (e.g., with MATLAB) and who want to learn simultaneously the basics of Julia and ModelingToolkit.jl in an efficient way so that these tools can be applied to modeling problems. 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The numerical approach used in this tutorial is to search directly for the value of x where f<sub>i</sub>(x) = 0 (where x is a vector of independent variables), instead of converting the problem into an optimization problem by searching for the value of x where $\sum_{i}$ f<sub>i</sub>(x)^2 is minimized. The latter approach is the approach used by the fsolve() function in MATLAB and is inefficient compared to the approach used here.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This tutorial is intended for those who already have some programming experience (e.g., with MATLAB) and who want to learn simultaneously the basics of Julia and ModelingToolkit.jl in an efficient way so that these tools can be applied to modeling problems. To facilitate this goal, the basic concepts and syntax used in this tutorial is summarized below.
 
 ###  Functions illustrated:
 <span style="font-family:Consolas; font-size:1em;">
