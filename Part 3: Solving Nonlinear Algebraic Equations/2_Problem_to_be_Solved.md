@@ -1,4 +1,4 @@
-##  Description of the problem considered in this tutorial part
+##  Description of the problem considered in this tutorial section
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mass-action ion-exchange equilibrium is used as an example problem in this tutorial part. The total amount present of each ionic species (m<sub>A</sub>, ...) is specified along with the volumes of the mobile (or liquid) phase (V<sub>m</sub>) and resin phase (V<sub>r</sub>) for the case where three (or more) ions are present (i.e., ions A, B, C etc.). Then, the liquid phase composition (c<sub>A</sub>, ...) and the resin-phase composition (q<sub>A</sub>, ...) are determined by solving a system of nonlinear algebraic equations. The ion-exchange equilibrium reactions for the case of three ionic species are as follows (where the subscripts r and m denote the resin and mobile phases, respectively):
 
